@@ -49,8 +49,8 @@ let finalAnswer = 0;
                 storeValue();
                 break;
             default:
-                 if (valOne.length >11) {
-                    alert("No more values beyond 8");
+                 if (valOne.Angka1) {
+                    alert("Maaf yang anda masukkan bukan angka");
                 }
 
                  else {
@@ -62,7 +62,7 @@ let finalAnswer = 0;
                 }
                 break;
             case ".":
-                if (valOne.includes(".")) {
+                if (valOne.includes("Angka2")) {
                     alert("Maaf yang Anda Input bukan Angka");
                 } else {
                     valOne.push(this.innerText);
